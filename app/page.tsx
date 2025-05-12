@@ -137,16 +137,16 @@ export default function Home() {
                     <div className="w-full max-w-7xl flex flex-row justify-between">       
                         <div className="flex flex-col gap-6">
                             <p className="text-xl text-left w-full">
-                                We introduce <b>FreeTacMan</b>, a robot-free and human-centric visuo-tactile data collection system to acquire robot manipulation data accurately and efficiently. Our main contributions are: 
+                                We introduce <b className="text-[#004cee]">FreeTacMan</b>, a robot-free and human-centric visuo-tactile data collection system to acquire robot manipulation data accurately and efficiently. Our main contributions are: 
                             </p>
                             <p className="text-xl text-left w-full">
-                                (i) A portable, high-resolution, low-cost <b>visuo-tactile hardware sensor</b> designed for rapid adaptation across multiple robotic end-effectors. 
+                                (i) A portable, high-resolution, low-cost <b className="text-[#004cee]">visuo-tactile hardware sensor</b> designed for rapid adaptation across multiple robotic end-effectors. 
                             </p>
                             <p className="text-xl text-left w-full">
-                                (ii) An in-situ, robot-free, real-time tactile <b>data-collection system</b> that leverages a handheld end effector and the proposed sensor to excel at diverse contact-rich tasks efficiently. 
+                                (ii) An in-situ, robot-free, real-time tactile <b className="text-[#004cee]">data-collection system</b> that leverages a handheld end effector and the proposed sensor to excel at diverse contact-rich tasks efficiently. 
                             </p>
                             <p className="text-xl text-left w-full">
-                            (iii) Experimental validation shows that imitation policies trained with our visuo-tactile data achieve an average <b>50% higher success rate</b> than vision-only approaches in a wide spectrum of contact-rich manipulation tasks.
+                            (iii) Experimental validation shows that imitation policies trained with our visuo-tactile data achieve an average <b className="text-[#004cee]">50% higher success rate</b> than vision-only approaches in a wide spectrum of contact-rich manipulation tasks.
                             </p>
                         </div>         
 
