@@ -103,7 +103,7 @@ export default function Home() {
                     </div>
                     <div className="flex justify-center items-center flex-col gap-6 max-w-[1024px]">
                         <video preload="none" autoPlay loop muted playsInline className="w-full object-fit max-w-[1024px]">
-                            <source src="public/landing/FreeTacMan_teaser_gray.mp4"/>
+                            <source src="/freetacman_webpage/landing/FreeTacMan_teaser_gray.mp4"/>
                         </video>
                         <span className="text-xl italic text-gray-400 text-left w-full">
                         FreeTacMan is a robot-free, human-centric visuo-tactile data collection system, featuring low-cost, high-resolution tactile sensors and a portable, cross-embodiment modular design. FreeTacMan transfers human visual perception, tactile sensing, and motion control skills to robots efficiently by integrating visual and tactile data.
@@ -161,7 +161,7 @@ export default function Home() {
 
                         <TabsList className="flex flex-col justify-between gap-6 h-full">
                             <TabsTrigger value="01" key="01" className=
-                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('/highlights/01.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
+                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('/freetacman_webpage/highlights/01.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
                             >
                                 <h2 className="text-5xl">
                                     01
@@ -171,7 +171,7 @@ export default function Home() {
                                 </p>
                             </TabsTrigger>
                             <TabsTrigger value="02" key="02" className=
-                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('/highlights/02.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
+                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('/freetacman_webpage/highlights/02.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
                             >
                                 <h2 className="text-5xl">
                                     02
@@ -181,7 +181,7 @@ export default function Home() {
                                 </p>
                             </TabsTrigger>
                             <TabsTrigger value="03" key="03" className=
-                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('/highlights/03.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
+                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('/freetacman_webpage/highlights/03.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
                             >
                                 <h2 className="text-5xl">
                                     03
@@ -198,7 +198,7 @@ export default function Home() {
                             <Card className="border-8 border-[#98AEF3] h-full">
                                 <CardContent className="h-full flex justify-center items-center">
                                     <video preload="none" autoPlay loop muted playsInline>
-                                        <source src="public/highlights/highlight01.mp4"/>
+                                        <source src="/freetacman_webpage/highlights/highlight01.mp4"/>
                                     </video>
                                 </CardContent>
                             </Card>
@@ -207,7 +207,7 @@ export default function Home() {
                             <Card className="border-8 border-[#98AEF3] h-full">
                                 <CardContent className="h-full flex justify-center items-center">
                                     <video preload="none" autoPlay loop muted playsInline>
-                                        <source src="public/highlights/highlight2_9_16.mp4"/>
+                                        <source src="/freetacman_webpage/highlights/highlight2_9_16.mp4"/>
                                     </video>
                                 </CardContent>
                             </Card>
@@ -216,7 +216,7 @@ export default function Home() {
                             <Card className="border-8 border-[#98AEF3] h-full">
                                 <CardContent className="h-full flex justify-center items-center">
                                     <video preload="none" autoPlay loop muted playsInline>
-                                        <source src="public/highlights/20250508-062620.mp4"/>
+                                        <source src="/freetacman_webpage/highlights/20250508-062620.mp4"/>
                                     </video>
                                 </CardContent>
                             </Card>
@@ -272,7 +272,7 @@ export default function Home() {
                     <div className="flex flex-col gap-20 h-full">
                         <div className="flex flex-col justify-center gap-20">
                             <span className="font-bold text-3xl text-center">Interactive Modal Viewer</span>
-                            <iframe src="public/3d_model/FreeTacMan_Model.html" className="h-[640px]"></iframe>
+                            <iframe src="/freetacman_webpage/3d_model/FreeTacMan_Model.html" className="h-[640px]"></iframe>
                         </div>
                         <div className="w-full object-fit bg-white flex flex-row gap-10 p-10  h-[640px] justify-center">
                             {/* <div className="flex-1/2 flex flex-col gap-6 items-center justify-between">
@@ -293,7 +293,7 @@ export default function Home() {
                                     <span className="font-bold text-3xl">FreeTacMan on FRANKA</span>
                                 </div>
                                 <video preload="none" autoPlay loop muted playsInline>
-                                    <source src="public/3d_model/piperandfranka.mp4"/>
+                                    <source src="/freetacman_webpage/3d_model/piperandfranka.mp4"/>
                                 </video>
                             </div>
                         </div>
@@ -354,7 +354,7 @@ export default function Home() {
                                     Fragile Cup Manipulation
                                 </span>
                                 <div className="flex justify-center items-center">
-                                    <img src="public/task/FragileCupManipulation.png" className="h-24 select-none"/>
+                                    <img src="/freetacman_webpage/task/FragileCupManipulation.png" className="h-24 select-none"/>
                                 </div>
                             </div>
                             <div className="flex flex-col gap-6 max-w-32">
@@ -362,7 +362,7 @@ export default function Home() {
                                     USB Plugging
                                 </span>
                                 <div className="flex justify-center items-center">
-                                    <img src="public/task/USBPlugging.png" className="h-24 select-none"/>
+                                    <img src="/freetacman_webpage/task/USBPlugging.png" className="h-24 select-none"/>
                                 </div>
                             </div>
                             <div className="flex flex-col gap-6 max-w-32">
@@ -370,7 +370,7 @@ export default function Home() {
                                     Texture Classification
                                 </span>
                                 <div className="flex justify-center items-center">
-                                    <img src="public/task/TextureClassification.png" className="h-24 select-none"/>
+                                    <img src="/freetacman_webpage/task/TextureClassification.png" className="h-24 select-none"/>
                                 </div>
                             </div>
                             <div className="flex flex-col gap-6 max-w-32">
@@ -378,7 +378,7 @@ export default function Home() {
                                     Stamp Pressing
                                 </span>
                                 <div className="flex justify-center items-center">
-                                    <img src="public/task/StampPressing.png" className="h-24 select-none"/>
+                                    <img src="/freetacman_webpage/task/StampPressing.png" className="h-24 select-none"/>
                                 </div>
                             </div>
                         </div>
@@ -388,7 +388,7 @@ export default function Home() {
                                     Calligraphy Writing
                                 </span>
                                 <div className="flex justify-center items-center">
-                                    <img src="public/task/CalligraphyWriting.png" className="h-24 select-none"/>
+                                    <img src="/freetacman_webpage/task/CalligraphyWriting.png" className="h-24 select-none"/>
                                 </div>
                             </div>
                             <div className="flex flex-col gap-6 max-w-32">
@@ -396,7 +396,7 @@ export default function Home() {
                                     Toothpaste Extrusion
                                 </span>
                                 <div className="flex justify-center items-center">
-                                    <img src="public/task/ToothpasteExtrusion.png" className="h-24 select-none"/>
+                                    <img src="/freetacman_webpage/task/ToothpasteExtrusion.png" className="h-24 select-none"/>
                                 </div>
                             </div>
                             <div className="flex flex-col gap-6 max-w-32">
@@ -404,7 +404,7 @@ export default function Home() {
                                     Tissue Grasping
                                 </span>
                                 <div className="flex justify-center items-center">
-                                    <img src="public/task/TissueGrasping.png" className="h-24 select-none"/>
+                                    <img src="/freetacman_webpage/task/TissueGrasping.png" className="h-24 select-none"/>
                                 </div>
                             </div>
                             <div className="flex flex-col gap-6 max-w-32">
@@ -412,7 +412,7 @@ export default function Home() {
                                     Potato Chip Grasping
                                 </span>
                                 <div className="flex justify-center items-center">
-                                    <img src="public/task/PotatoChipGrasping.png" className="h-24 select-none"/>
+                                    <img src="/freetacman_webpage/task/PotatoChipGrasping.png" className="h-24 select-none"/>
                                 </div>
                             </div>
                         </div>
@@ -542,7 +542,7 @@ export default function Home() {
                                     <div className="flex-3/5 flex flex-row gap-3">
                                         <div className="flex flex-col gap-3  w-3/4">
                                             <video preload="none" autoPlay loop muted playsInline className=" object-fit">
-                                                <source src="public/policy_rollouts/TextureClassification.mp4"/>
+                                                <source src="/freetacman_webpage/policy_rollouts/TextureClassification.mp4"/>
                                             </video>
                                             <p className="text-center italic text-muted-foreground">
                                                 The videos are played at normal speed.
@@ -601,7 +601,7 @@ export default function Home() {
                                     <div className="flex-3/5 flex flex-row gap-3">
                                         <div className="flex flex-col gap-3  w-3/4">
                                             <video preload="none" autoPlay loop muted playsInline className=" object-fit">
-                                                <source src="public/policy_rollouts/CalligraphyWriting.mp4"/>
+                                                <source src="/freetacman_webpage/policy_rollouts/CalligraphyWriting.mp4"/>
                                             </video>
                                             <p className="text-center italic text-muted-foreground">
                                                 The videos are played at normal speed.
@@ -681,7 +681,7 @@ export default function Home() {
                                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6 gap-10">
                                     <p className="text-3xl font-bold text-[#174BE5]">Fragile Cup</p>
                                     <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#174BE5]/50 rounded-xl object-fit">
-                                        <source src="public/user_study/FragileCupManipulation.mp4"/>
+                                        <source src="/freetacman_webpage/user_study/FragileCupManipulation.mp4"/>
                                     </video>
                                     <div className="w-full">
                                         <UserStudy1/>
@@ -695,7 +695,7 @@ export default function Home() {
                                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6 gap-10">
                                     <p className="text-3xl font-bold text-[#43C9C1]">USB Plugging</p>
                                     <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#43C9C1]/50 rounded-xl object-fit">
-                                        <source src="public/user_study/USBPlugging.mp4"/>
+                                        <source src="/freetacman_webpage/user_study/USBPlugging.mp4"/>
                                     </video>
                                     <div className="w-full">
                                         <UserStudy2/>
@@ -723,7 +723,7 @@ export default function Home() {
                                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6 gap-10">
                                     <p className="text-3xl font-bold text-[#FF668C]">Stamp Pressing</p>
                                     <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#FF668C]/50 rounded-xl object-fit">
-                                        <source src="public/user_study/StampPressing.mp4"/>
+                                        <source src="/freetacman_webpage/user_study/StampPressing.mp4"/>
                                     </video>
                                     <div className="w-full">
                                         <UserStudy4/>
@@ -737,7 +737,7 @@ export default function Home() {
                                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6 gap-10">
                                     <p className="text-3xl font-bold text-[#8E73E6]">Calligraphy</p>
                                     <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#8E73E6]/50 rounded-xl object-fit">
-                                        <source src="public/user_study/CalligraphyWriting.mov"/>
+                                        <source src="/freetacman_webpage/user_study/CalligraphyWriting.mov"/>
                                     </video>
                                     <div className="w-full">
                                         <UserStudy5/>
@@ -751,7 +751,7 @@ export default function Home() {
                                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6 gap-10">
                                     <p className="text-3xl font-bold text-[#d20000]">Toothpaste Extrusion</p>
                                     <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#d20000]/50 rounded-xl object-fit">
-                                        <source src="public/user_study/ToothpasteExtrusion.mp4"/>
+                                        <source src="/freetacman_webpage/user_study/ToothpasteExtrusion.mp4"/>
                                     </video>
                                     <div className="w-full">
                                         <UserStudy6/>
@@ -765,7 +765,7 @@ export default function Home() {
                                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6 gap-10">
                                     <p className="text-3xl font-bold text-[#7ed233]">Tissue Grasping</p>
                                     <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#7ed233]/50 rounded-xl object-fit">
-                                        <source src="public/user_study/TissueGrasping.mp4"/>
+                                        <source src="/freetacman_webpage/user_study/TissueGrasping.mp4"/>
                                     </video>
                                     <div className="w-full">
                                         <UserStudy7/>
@@ -779,7 +779,7 @@ export default function Home() {
                                 <CardContent className="flex flex-col aspect-square items-center justify-center p-6 gap-10">
                                     <p className="text-3xl font-bold text-[#ff7b00]">Patato Chip Grasping</p>
                                     <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#ff7b00]/50 rounded-xl object-fit">
-                                        <source src="public/user_study/PotatoChipGrasping.mp4"/>
+                                        <source src="/freetacman_webpage/user_study/PotatoChipGrasping.mp4"/>
                                     </video>
                                     <div className="w-full">
                                         <UserStudy8/>
