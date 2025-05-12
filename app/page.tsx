@@ -161,7 +161,7 @@ export default function Home() {
 
                         <TabsList className="flex flex-col justify-between gap-6 h-full">
                             <TabsTrigger value="01" key="01" className=
-                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('public/highlights/01.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
+                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('/highlights/01.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
                             >
                                 <h2 className="text-5xl">
                                     01
@@ -171,7 +171,7 @@ export default function Home() {
                                 </p>
                             </TabsTrigger>
                             <TabsTrigger value="02" key="02" className=
-                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('public/highlights/02.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
+                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('/highlights/02.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
                             >
                                 <h2 className="text-5xl">
                                     02
@@ -181,7 +181,7 @@ export default function Home() {
                                 </p>
                             </TabsTrigger>
                             <TabsTrigger value="03" key="03" className=
-                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('public/highlights/03.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
+                            "data-[state=active]:text-[#174BE5] disabled:pointer-events-none flex flex-col py-6 px-3 justify-around rounded-xl text-background font-bold bg-[url('/highlights/03.png')] bg-center bg-cover bg-black bg-opacity-50 bg-blend-overlay w-80 flex-1/3"
                             >
                                 <h2 className="text-5xl">
                                     03
