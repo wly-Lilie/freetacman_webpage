@@ -144,7 +144,7 @@ export default function Home() {
                 <div className="flex-1 ml-64">
                     {/* Highlights */}
                     <div className="w-full pl-6 pr-6 flex flex-col items-center">
-                        <div className="w-full flex flex-col items-center mt-32">
+                        <div className="w-full flex flex-col items-center mt-16">
                             <div className="w-full max-w-7xl flex flex-row justify-between">
                                 <h2 className="text-6xl font-bold"> 
                                     <Link href="#highlights" className="scroll-mt-32 group flex items-center" id="highlights">
