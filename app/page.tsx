@@ -110,7 +110,7 @@ export default function Home() {
             </div>
 
             {/* Main Content Section with Table of Contents */}
-            <div className="relative">
+            <div className="relative flex">
                 {/* Table of Contents */}
                 <div className="w-64 min-h-screen sticky top-0 p-6 bg-white/90 backdrop-blur-sm shadow-lg">
                     <div className="sticky top-6">
@@ -141,7 +141,7 @@ export default function Home() {
                 </div>
 
                 {/* Main Content */}
-                <div className="flex-1 ml-64">
+                <div className="flex-1">
                     {/* Highlights */}
                     <div className="w-full pl-6 pr-6 flex flex-col items-center">
                         <div className="w-full flex flex-col items-center mt-16">
