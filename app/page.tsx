@@ -112,21 +112,36 @@ export default function Home() {
             {/* Main Content Section with Table of Contents */}
             <div className="relative">
                 {/* Table of Contents */}
-                <div className="fixed left-8 top-1/2 -translate-y-1/2 z-50">
-                    <div className="bg-white/80 backdrop-blur-sm p-6 rounded-lg shadow-lg">
-                        <h3 className="text-xl font-bold mb-4">Contents</h3>
-                        <nav className="flex flex-col gap-2">
-                            <Link href="#highlights" className="hover:text-[#174BE5] transition-colors">Highlights</Link>
-                            <Link href="#model" className="hover:text-[#174BE5] transition-colors">3D Model</Link>
-                            <Link href="#applications" className="hover:text-[#174BE5] transition-colors">Applications</Link>
-                            <Link href="#policy-rollouts" className="hover:text-[#174BE5] transition-colors">Policy Rollouts</Link>
-                            <Link href="#user-study" className="hover:text-[#174BE5] transition-colors">User Study</Link>
+                <div className="w-64 min-h-screen sticky top-0 p-6 bg-white/90 backdrop-blur-sm shadow-lg">
+                    <div className="sticky top-6">
+                        <h3 className="text-2xl font-bold mb-6 text-[#174BE5]">Contents</h3>
+                        <nav className="flex flex-col gap-4">
+                            <Link href="#highlights" className="hover:text-[#174BE5] transition-colors text-lg font-medium group flex items-center">
+                                <span className="w-2 h-2 bg-[#174BE5] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                                Highlights
+                            </Link>
+                            <Link href="#model" className="hover:text-[#174BE5] transition-colors text-lg font-medium group flex items-center">
+                                <span className="w-2 h-2 bg-[#174BE5] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                                3D Model
+                            </Link>
+                            <Link href="#applications" className="hover:text-[#174BE5] transition-colors text-lg font-medium group flex items-center">
+                                <span className="w-2 h-2 bg-[#174BE5] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                                Applications
+                            </Link>
+                            <Link href="#policy-rollouts" className="hover:text-[#174BE5] transition-colors text-lg font-medium group flex items-center">
+                                <span className="w-2 h-2 bg-[#174BE5] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                                Policy Rollouts
+                            </Link>
+                            <Link href="#user-study" className="hover:text-[#174BE5] transition-colors text-lg font-medium group flex items-center">
+                                <span className="w-2 h-2 bg-[#174BE5] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                                User Study
+                            </Link>
                         </nav>
                     </div>
                 </div>
 
-                {/* Rest of the content */}
-                <div className="bg-white">
+                {/* Main Content */}
+                <div className="flex-1 ml-64">
                     {/* Highlights */}
                     <div className="w-full pl-6 pr-6 flex flex-col items-center">
                         <div className="w-full flex flex-col items-center mt-32">
