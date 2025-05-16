@@ -272,7 +272,7 @@ export default function Home() {
                     <div className="flex flex-col gap-20 h-full">
                         <div className="flex flex-col justify-center gap-20">
                             <span className="font-bold text-3xl text-center">Interactive Modal Viewer</span>
-                            <iframe src="/freetacman_webpage/3d_model/FreeTacMan_Model.html" className="h-[640px]"></iframe>
+                            <iframe src="/freetacman_webpage/3d_model/FreeTacMan_Model.html" className="h-[640px] border-4 border-white hover:border-[#174BE5] transition-colors duration-300 rounded-lg"></iframe>
                         </div>
                         <div className="w-full object-fit bg-white flex flex-row gap-10 p-10  h-[640px] justify-center">
                             {/* <div className="flex-1/2 flex flex-col gap-6 items-center justify-between">
