@@ -505,7 +505,7 @@ export default function Home() {
                                                         <p className="text-[#174BE5] text-xl text-center flex-1">Ours<br></br>(+ Tactile Pretrained)</p>
                                                     </div>
                                                     <video preload="none" autoPlay loop muted playsInline className="w-full object-fit">
-                                                        <source src="/policy_rollouts/FragileCupManipulation.mov"/>
+                                                        <source src="/freetacman_webpage/policy_rollouts/FragileCupManipulation.mov"/>
                                                     </video>
                                                 </div>
                                                 <p className="text-center italic text-muted-foreground">
@@ -533,7 +533,7 @@ export default function Home() {
                                                         <p className="text-[#43C9C1] text-xl text-center flex-1">Ours<br></br>(+ Tactile Pretrained)</p>
                                                     </div>
                                                     <video preload="none" autoPlay loop muted playsInline className="w-full object-fit">
-                                                        <source src="/policy_rollouts/USBPlugging.mov"/>
+                                                        <source src="/freetacman_webpage/policy_rollouts/USBPlugging.mov"/>
                                                     </video>
                                                 </div>
                                                 <p className="text-center italic text-muted-foreground">
@@ -555,8 +555,8 @@ export default function Home() {
                                         <CardContent className="flex flex-col xl:flex-row gap-6 justify-between h-full items-center">
                                             <div className="flex-3/5 flex flex-row gap-3">
                                                 <div className="flex flex-col gap-3  w-3/4">
-                                                    <video preload="none" autoPlay loop muted playsInline className=" object-fit">
-                                                        <source src="/freetacman_webpage/policy_rollouts/TextureClassification.mp4"/>
+                                                    <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#FFC53D]/50 rounded-xl object-fit">
+                                                        <source src="/freetacman_webpage/user_study/TextureClassification.mp4"/>
                                                     </video>
                                                     <p className="text-center italic text-muted-foreground">
                                                         The videos are played at normal speed.
@@ -592,7 +592,7 @@ export default function Home() {
                                                         <p className="text-[#FF668C] text-xl text-center flex-1">Ours<br></br>(+ Tactile Pretrained)</p>
                                                     </div>
                                                     <video preload="none" autoPlay loop muted playsInline className="w-full object-fit">
-                                                        <source src="/policy_rollouts/StampPressing.mov"/>
+                                                        <source src="/freetacman_webpage/policy_rollouts/StampPressing.mov"/>
                                                     </video>
                                                 </div>
                                                 <p className="text-center italic text-muted-foreground">
@@ -723,7 +723,7 @@ export default function Home() {
                                         <CardContent className="flex flex-col aspect-square items-center justify-center p-6 gap-10">
                                             <p className="text-3xl font-bold text-[#FFC53D]">Texture  Classification</p>
                                             <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#FFC53D]/50 rounded-xl object-fit">
-                                                <source src="/user_study/TextureClassification.mov"/>
+                                                <source src="/freetacman_webpage/user_study/TextureClassification.mp4"/>
                                             </video>
                                             <div className="w-full">
                                                 <UserStudy3/>
