@@ -556,7 +556,7 @@ export default function Home() {
                                             <div className="flex-3/5 flex flex-row gap-3">
                                                 <div className="flex flex-col gap-3  w-3/4">
                                                     <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#FFC53D]/50 rounded-xl object-fit">
-                                                        <source src="/freetacman_webpage/user_study/TextureClassification.mp4"/>
+                                                        <source src="/freetacman_webpage/policy_rollouts/TextureClassification.mp4"/>
                                                     </video>
                                                     <p className="text-center italic text-muted-foreground">
                                                         The videos are played at normal speed.
@@ -723,7 +723,7 @@ export default function Home() {
                                         <CardContent className="flex flex-col aspect-square items-center justify-center p-6 gap-10">
                                             <p className="text-3xl font-bold text-[#FFC53D]">Texture  Classification</p>
                                             <video preload="none" autoPlay loop muted playsInline className="border-6 border-[#FFC53D]/50 rounded-xl object-fit">
-                                                <source src="/freetacman_webpage/user_study/TextureClassification.mp4"/>
+                                                <source src="/freetacman_webpage/user_study/TextureClassification.mov"/>
                                             </video>
                                             <div className="w-full">
                                                 <UserStudy3/>
