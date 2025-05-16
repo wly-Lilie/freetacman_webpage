@@ -83,7 +83,7 @@ export default function Home() {
 
 
             {/* Landing */}
-            <div className="w-full xl:h-svh flex flex-col items-center px-6 bg-[#eaeaea]">
+            <div className="w-full min-h-screen flex flex-col items-center px-6 bg-[#eaeaea]">
                 <div className="flex flex-col py-20 gap-6 w-full h-full max-w-[1792px] justify-around items-center">
                     <div className="color-text-1">
                         <h1 className="text-8xl lg:text-8xl font-bold text-center">
